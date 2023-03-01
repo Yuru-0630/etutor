@@ -3,8 +3,8 @@ services:
   name: etutor
   env: node
   repo: https://github.com/Yuru-0630/etutor.git
-  buildCommand: npm install
-  startCommand: node etutor.js
+  buildCommand: npm i
+  startCommand: npm run start
   plan: free
   autoDeploy: false
   
