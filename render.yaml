@@ -1,0 +1,14 @@
+services:
+- type: web
+  name: etutor
+  env: node
+  repo: https://github.com/line/line-bot-sdk-nodejs.git
+  buildCommand: npm install
+  startCommand: node .
+  plan: free
+  autoDeploy: false
+  envVars:
+  - key: CHANNEL_ACCESS_TOKEN
+    sync: false
+  - key: CHANNEL_SECRET
+    sync: false
