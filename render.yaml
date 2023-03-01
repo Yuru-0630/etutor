@@ -2,7 +2,7 @@ services:
 - type: web
   name: etutor
   env: node
-  repo: https://github.com/line/line-bot-sdk-nodejs.git
+  repo: https://github.com/Yuru-0630/etutor.git
   buildCommand: npm install
   startCommand: node etutor.js
   plan: free
